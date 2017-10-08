@@ -2,7 +2,7 @@
 planet_list = ["Mercury", "Mars"]
 planet_list.push("Jupiter", "Saturn")
 planet_list.concat(["Uranus", "Neptune"])
-# planet_list.insert(1, "Venus")
+planet_list.insert(1, "Venus")
 planet_list.insert(2, "Earth")
 planet_list.push("Pluto")
 
@@ -20,7 +20,6 @@ Iterate over your array of planets, and inside that loop, iterate over the array
 =end
 
 spacecraft = [["Cassini", "Saturn"], ["Curiositty", "Mars"], ["Messenger", "Mercury"], ["Pioneer", "Venus"]]
-# planet_list.each{|i| print spacecraft.each{|x|} if i == x}
 
 planet_list.each do |planet|
     spacecraft.each do |craft|
